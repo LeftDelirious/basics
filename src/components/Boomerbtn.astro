@@ -1,0 +1,6 @@
+---
+import type { HTMLAttributes } from 'astro/types';
+
+type Props = HTMLAttributes<'img'>;
+---
+<img {...Astro.props} slot="dogbtn" src="./boomerbtn.png" alt="Boomer Button" width="20" height="20" />
